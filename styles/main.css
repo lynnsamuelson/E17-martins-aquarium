@@ -1,0 +1,25 @@
+body {
+  background-color: aqua;
+}
+
+#app {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.left, .right {
+  border: 2px dotted red;
+}
+
+.left {
+  /* flex: 2 10px; */
+  flex-grow: 21;
+  flex-basis: 100px;
+}
+
+.right {
+  /* flex: 1 10px; */
+  flex-grow: 1;
+  flex-basis: 10px;
+}
+
