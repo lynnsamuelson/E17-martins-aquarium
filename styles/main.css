@@ -1,10 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 body {
   background-color: aqua;
 }
 
+h4 {
+  font-size: 24pt;
+  margin: 1rem;
+  font-family: 'Lobster', cursive;
+}
+
+p {
+  margin: 1rem;
+  font-size: 12pt;
+}
+
+img {
+  margin: 10px 20px;
+  border: 2px solid black;
+  width: 10rem;
+}
+ q {
+  margin: 1rem;
+  display: inline-block;
+ }
+
+
 #app {
   display: flex;
   justify-content: space-evenly;
+}
+
+.quotes {
+  background-color: orange;
 }
 
 .left, .right {
@@ -12,14 +40,18 @@ body {
 }
 
 .left {
-  /* flex: 2 10px; */
-  flex-grow: 21;
-  flex-basis: 100px;
+  flex: 2 10px;
 }
 
 .right {
-  /* flex: 1 10px; */
-  flex-grow: 1;
-  flex-basis: 10px;
+  flex: 1 10px;
 }
+.fish--details__header6 {
+  font-size: 18pt;
+  margin: 1rem;
+}
+
+
+
+
 
